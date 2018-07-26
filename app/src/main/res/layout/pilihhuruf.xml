@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="PILIH 9 HURUF UNTUK DIMAINKAN"
+        android:textSize="17dip"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btPilihHuruf_Main"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="50"
+            android:text="MAINKAN"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvJmlPilihHuruf"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="50"
+            android:text="Anda Sudah Memilih 0 Huruf" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <TableRow
+                android:id="@+id/tableRow1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" >
+
+                <CheckBox
+                    android:id="@+id/ckPilihHuruf_Alif"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Alif" />
+
+                <CheckBox
+                    android:id="@+id/ckPilihHuruf_Ba"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Ba'" />
+
+                <CheckBox
+                    android:id="@+id/ckPilihHuruf_Ta"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Ta'" />
+
+                <CheckBox
+                    android:id="@+id/ckPilihHuruf_Tsa"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Tsa'" />
+
+                <CheckBox
+                    android:id="@+id/ckPilihHuruf_Jim"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Jim" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" >
+
+                <CheckBox
+                    android:id="@+id/ckPilihHuruf_Cha"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Cha'" />
+
+                <CheckBox
+                    android:id="@+id/ckPilihHuruf_Kho"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Kho'" />
+
+                <CheckBox
+                    android:id="@+id/ckPilihHuruf_Dal"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Dal" />
+
+                <CheckBox
+                    android:id="@+id/ckPilihHuruf_Dzal"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Dzal" />
+
+                <CheckBox
+                    android:id="@+id/ckPilihHuruf_Ro"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Ro'" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow3"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" >
+
+                <CheckBox
+                    android:id="@+id/ckPilihHuruf_Zai"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Zai" />
+
+                <CheckBox
+                    android:id="@+id/ckPilihHuruf_Sin"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Sin" />
+
+                <CheckBox
+                    android:id="@+id/ckPilihHuruf_Syin"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Syin" />
+
+                <CheckBox
+                    android:id="@+id/ckPilihHuruf_Shod"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Shod" />
+
+                <CheckBox
+                    android:id="@+id/ckPilihHuruf_Dlod"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Dlod" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow4"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" >
+
+                <CheckBox
+                    android:id="@+id/ckPilihHuruf_Tho"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Tho'" />
+
+                <CheckBox
+                    android:id="@+id/ckPilihHuruf_Dho"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Dho'" />
+
+                <CheckBox
+                    android:id="@+id/ckPilihHuruf_Ain"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="'Ain" />
+
+                <CheckBox
+                    android:id="@+id/ckPilihHuruf_Ghoin"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Ghoin" />
+
+                <CheckBox
+                    android:id="@+id/ckPilihHuruf_Fa"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Fa'" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow5"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" >
+
+                <CheckBox
+                    android:id="@+id/ckPilihHuruf_Qof"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Qof" />
+
+                <CheckBox
+                    android:id="@+id/ckPilihHuruf_Kaf"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Kaf" />
+
+                <CheckBox
+                    android:id="@+id/ckPilihHuruf_Lam"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Lam" />
+
+                <CheckBox
+                    android:id="@+id/ckPilihHuruf_Mim"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Mim" />
+
+                <CheckBox
+                    android:id="@+id/ckPilihHuruf_Nun"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Nun" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow6"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" >
+
+                <CheckBox
+                    android:id="@+id/ckPilihHuruf_Wawu"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Wawu" />
+
+                <CheckBox
+                    android:id="@+id/ckPilihHuruf_Ha"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Ha'" />
+
+                <CheckBox
+                    android:id="@+id/ckPilihHuruf_LamAlif"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Lam Alif" />
+
+                <CheckBox
+                    android:id="@+id/ckPilihHuruf_Hamzah"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Hamzah" />
+
+                <CheckBox
+                    android:id="@+id/ckPilihHuruf_Ya"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Ya'" />
+            </TableRow>
+        </TableLayout>
+    </ScrollView>
+
+</LinearLayout>

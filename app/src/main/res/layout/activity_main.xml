@@ -1,0 +1,59 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:background="@drawable/home">
+
+    <Button
+        android:id="@+id/btPlay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:typeface="sans" 
+        android:background="@drawable/tombol_mainkan"
+        android:layout_centerVertical="true"
+        android:layout_toStartOf="@+id/btHelp" />
+
+    <Button
+        android:id="@+id/btMusic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:background="@drawable/btmusic_on" />
+
+    <Button
+        android:id="@+id/btSound"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/btMusic"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:background="@drawable/btsound_on" />
+
+    <Button
+        android:id="@+id/btExit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:background="@drawable/tombol_exit"
+        android:layout_alignBaseline="@+id/btSound"
+        android:layout_alignBottom="@+id/btSound"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:id="@+id/btHelp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/btExit"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:background="@drawable/tombol_help" />
+
+</RelativeLayout>
