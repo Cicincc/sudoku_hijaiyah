@@ -20,8 +20,8 @@ import android.widget.Toast;
 
 import java.util.Date;
 
-import suhi.alat.Keypad;
-import suhi.mesin.backtrack;
+import aco.tools.Keypad;
+import aco.method.AntColonyOptimization;
 
 public class puzzle extends Activity {
 	public static final String HURUF_LEVEL = "org.sudoku.huruflevel";
@@ -32,7 +32,7 @@ public class puzzle extends Activity {
 	int[] nilaiGambar = null;
 	int[] nilaiSuara = null;
 	int[] gambarKey = new int[9];
-	static backtrack mesin;
+	static AntColonyOptimization mesin;
 	// DEKLARASI PROSES
 	public static ProgressDialog progres = null;
 	public static ProgressDialog progresSolving = null;
@@ -49,7 +49,7 @@ public class puzzle extends Activity {
 		// "Tunggu Sebentar...");
 		// waktuStart = System.currentTimeMillis();
 
-		mesin = new backtrack();
+		mesin = new AntColonyOptimization();
 		puzzleSoal = new int[9][9];
 		requestWindowFeature(Window.FEATURE_NO_TITLE);
 		getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
@@ -219,8 +219,7 @@ public class puzzle extends Activity {
 		toast.show();
 	}
 
-	//ubah ke aco
-	public void BacktrackSolving() {
+	public void AntAntColonyOptimizationSolving() {
 		waktuStart = System.currentTimeMillis();
 		kanvas.SelesaikanPuzzleUser(mesin
 				.getSolutionPuzzle(puzzleKanvas.puzzleUser),waktuStart);
@@ -237,7 +236,7 @@ public class puzzle extends Activity {
 		case 0:
 			progres = ProgressDialog.show(this, "Backtrack Solving Puzzle",
 					"Tunggu Sebentar...", true, false);
-			BacktrackSolving();
+			AntAntColonyOptimizationSolving();
 			return true;
 		case 1:
 
