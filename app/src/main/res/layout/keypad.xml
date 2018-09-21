@@ -5,71 +5,85 @@
    android:orientation="vertical"
    android:layout_width="wrap_content"
    android:layout_height="wrap_content"
-   android:stretchColumns="*"> 
-   
-   <TableRow>
+   android:stretchColumns="*">
 
-       <ImageButton
-           android:id="@+id/keypad_1"
-           android:layout_width="wrap_content"
-           android:layout_height="wrap_content"
-           android:src="@drawable/alif" />
-
-       <ImageButton
-           android:id="@+id/keypad_2"
-           android:layout_width="wrap_content"
-           android:layout_height="wrap_content"
-           android:src="@drawable/ba" />
-
-       <ImageButton
-           android:id="@+id/keypad_3"
-           android:layout_width="wrap_content"
-           android:layout_height="wrap_content"
-           android:src="@drawable/ta" />
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
 
-   </TableRow>
+        <ImageButton
+            android:id="@+id/keypad_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/alif" />
 
-   <TableRow>
-
-       <ImageButton
-           android:id="@+id/keypad_4"
-           android:layout_width="wrap_content"
-           android:layout_height="wrap_content"
-           android:src="@drawable/tsa" />
 
-       <ImageButton
-           android:id="@+id/keypad_6"
-           android:layout_width="wrap_content"
-           android:layout_height="wrap_content"
-           android:src="@drawable/ha" />
-
-       <ImageButton
-           android:id="@+id/keypad_5"
-           android:layout_width="wrap_content"
-           android:layout_height="wrap_content"
-           android:src="@drawable/jim" />
+        <ImageButton
+            android:id="@+id/keypad_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ba" />
 
-   </TableRow>
-   <TableRow>
-
-       <ImageButton
-           android:id="@+id/keypad_7"
-           android:layout_width="wrap_content"
-           android:layout_height="wrap_content"
-           android:src="@drawable/kha" />
-
-       <ImageButton
-           android:id="@+id/keypad_8"
-           android:layout_width="wrap_content"
-           android:layout_height="wrap_content"
-           android:src="@drawable/dal" />
-
-       <ImageButton
-           android:id="@+id/keypad_9"
-           android:layout_width="wrap_content"
-           android:layout_height="wrap_content"
-           android:src="@drawable/dzal" />
 
-   </TableRow>
+        <ImageButton
+            android:id="@+id/keypad_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ta" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+        <ImageButton
+            android:id="@+id/keypad_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/tsa" />
+
+        <ImageButton
+            android:id="@+id/keypad_6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ha" />
+
+
+        <ImageButton
+            android:id="@+id/keypad_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/jim" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+        <ImageButton
+            android:id="@+id/keypad_7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/kha" />
+
+
+        <ImageButton
+            android:id="@+id/keypad_8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/dal" />
+
+
+        <ImageButton
+            android:id="@+id/keypad_9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/dzal" />
+
+    </TableRow>
     
  </TableLayout>

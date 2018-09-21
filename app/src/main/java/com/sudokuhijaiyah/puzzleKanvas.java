@@ -1,16 +1,14 @@
 package com.sudokuhijaiyah;
 
-import android.app.ProgressDialog;
 import android.content.Context;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.graphics.Canvas;
 import android.graphics.Paint;
-import android.graphics.Rect;
 import android.graphics.Paint.FontMetrics;
 import android.graphics.Paint.Style;
+import android.graphics.Rect;
 import android.media.MediaPlayer;
-import android.view.KeyEvent;
 import android.view.MotionEvent;
 import android.view.View;
 
@@ -127,7 +125,7 @@ public class puzzleKanvas extends View {
 		float y = heightSpot / 4.25f - (fm.ascent + fm.descent) / 4.25f;
 
 		Paint hint = new Paint();
-		hint.setColor(getResources().getColor(R.color.puzzle_hint_0));
+		hint.setColor(getResources().getColor(R.color.transparan));
 		// hint.setColor(getResources().getColor(R.color.puzzle_selected));
 
 		// ISI PUZZLE
@@ -156,7 +154,7 @@ public class puzzleKanvas extends View {
 		}
 
 		Paint selected = new Paint();
-		selected.setColor(getResources().getColor(R.color.puzzle_selected));
+		selected.setColor(getResources().getColor(R.color.transparan));
 		canvas.drawRect(selRect, selected);
 
 		// GAMBAR GARIS PEMBATAS

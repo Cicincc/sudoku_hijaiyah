@@ -45,7 +45,8 @@ public class puzzle extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		// TODO Auto-generated method stub
 		super.onCreate(savedInstanceState);
-		// progres = ProgressDialog.show(this, "Backtrack Generating Puzzle",
+		// progres = ProgressDialog.show(this, "Backtrac
+		// k Generating Puzzle",
 		// "Tunggu Sebentar...");
 		// waktuStart = System.currentTimeMillis();
 
@@ -234,7 +235,7 @@ public class puzzle extends Activity {
 	private boolean MenuChoice(MenuItem item) {
 		switch (item.getItemId()) {
 		case 0:
-			progres = ProgressDialog.show(this, "Backtrack Solving Puzzle",
+			progres = ProgressDialog.show(this, "ACO Solving Puzzle",
 					"Tunggu Sebentar...", true, false);
 			AntAntColonyOptimizationSolving();
 			return true;
