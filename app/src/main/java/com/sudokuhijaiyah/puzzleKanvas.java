@@ -52,8 +52,8 @@ public class puzzleKanvas extends View {
 
 	@Override
 	protected void onSizeChanged(int w, int h, int oldw, int oldh) {
-		widthSpot = w / 9f;
-		heightSpot = h / 9f;
+		widthSpot = w / 10f;
+		heightSpot = h / 10f;
 		// getRect(selX, selY, selRect);
 		super.onSizeChanged(w, h, oldw, oldh);
 	}
@@ -121,8 +121,8 @@ public class puzzleKanvas extends View {
 		foreground.setTextScaleX(widthSpot / heightSpot);
 		foreground.setTextAlign(Paint.Align.CENTER);
 		FontMetrics fm = foreground.getFontMetrics();
-		float x = widthSpot / 4.25f;
-		float y = heightSpot / 4.25f - (fm.ascent + fm.descent) / 4.25f;
+		float x = widthSpot / 8;
+		float y = heightSpot / 8 - (fm.ascent + fm.descent) / 8;
 
 		Paint hint = new Paint();
 		hint.setColor(getResources().getColor(R.color.transparan));
