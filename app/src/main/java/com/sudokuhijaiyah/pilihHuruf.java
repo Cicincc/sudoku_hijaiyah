@@ -112,7 +112,7 @@ public class pilihHuruf extends Activity {
 
 	private void gotoPuzzle() {
 		puzzle.progres = ProgressDialog.show(this,
-				"Backtrack Generating Puzzle", "Tunggu Sebentar...");
+				"Generating Puzzle", "Tunggu Sebentar...");
 		Intent i = new Intent(this, puzzle.class);
 		int hurufnya[] = new int[10];
 		int k = 0;

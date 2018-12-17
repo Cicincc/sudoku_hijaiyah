@@ -52,8 +52,8 @@ public class puzzleKanvas extends View {
 
 	@Override
 	protected void onSizeChanged(int w, int h, int oldw, int oldh) {
-		widthSpot = w / 10f;
-		heightSpot = h / 10f;
+		widthSpot = w / 9f;
+		heightSpot = h / 9f;
 		// getRect(selX, selY, selRect);
 		super.onSizeChanged(w, h, oldw, oldh);
 	}
@@ -96,8 +96,8 @@ public class puzzleKanvas extends View {
 
 	private void select(int x, int y) {
 		invalidate(selRect);
-		selX = Math.min(Math.max(x, 0), 8);
-		selY = Math.min(Math.max(y, 0), 8);
+		selX = Math.min(Math.max(x, 0), 9);
+		selY = Math.min(Math.max(y, 0), 9);
 		getRect(selX, selY, selRect);
 		invalidate(selRect);
 	}
@@ -117,15 +117,15 @@ public class puzzleKanvas extends View {
 		Paint foreground = new Paint(Paint.ANTI_ALIAS_FLAG);
 		foreground.setColor(getResources().getColor(R.color.puzzle_foreground));
 		foreground.setStyle(Style.FILL);
-		foreground.setTextSize(heightSpot * 0.75f);
+		foreground.setTextSize(heightSpot * 0f);
 		foreground.setTextScaleX(widthSpot / heightSpot);
 		foreground.setTextAlign(Paint.Align.CENTER);
 		FontMetrics fm = foreground.getFontMetrics();
-		float x = widthSpot / 8;
-		float y = heightSpot / 8 - (fm.ascent + fm.descent) / 8;
+		float x = widthSpot / 9;
+		float y = heightSpot / 9 - (fm.ascent + fm.descent) / 9;
 
 		Paint hint = new Paint();
-		hint.setColor(getResources().getColor(R.color.transparan));
+		hint.setColor(getResources().getColor(R.color.background));
 		// hint.setColor(getResources().getColor(R.color.puzzle_selected));
 
 		// ISI PUZZLE
@@ -166,7 +166,7 @@ public class puzzleKanvas extends View {
 
 		// DUA PEMBATAS KOTAK KECIL
 		Paint hilite = new Paint();
-		hilite.setColor(getResources().getColor(R.color.puzzle_hilite));
+		hilite.setColor(getResources().getColor(R.color.background));
 
 		Paint light = new Paint();
 		light.setColor(getResources().getColor(R.color.puzzle_light));

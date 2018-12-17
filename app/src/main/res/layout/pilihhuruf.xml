@@ -3,7 +3,7 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:orientation="vertical"
-    android:background="@drawable/background" >
+    android:background="@drawable/bg" >
 
     <TextView
         android:id="@+id/textView1"
@@ -39,226 +39,227 @@
 
     <ScrollView
         android:layout_width="fill_parent"
-        android:layout_height="wrap_content" >
+        android:layout_height="wrap_content">
 
         <TableLayout
             android:layout_width="fill_parent"
-            android:layout_height="wrap_content" >
+            android:layout_height="wrap_content">
 
             <TableRow
                 android:id="@+id/tableRow1"
                 android:layout_width="fill_parent"
-                android:layout_height="wrap_content" >
+                android:layout_height="wrap_content">
 
                 <CheckBox
                     android:id="@+id/ckPilihHuruf_Alif"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
-                    android:text="Alif" />
+                    android:checked="false"
+                    android:text="أُذُنٌ" />
 
                 <CheckBox
                     android:id="@+id/ckPilihHuruf_Ba"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
-                    android:text="Ba'" />
+                    android:text="بَابٌ" />
 
                 <CheckBox
                     android:id="@+id/ckPilihHuruf_Ta"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
-                    android:text="Ta'" />
+                    android:text="تِلْمِيْذٌ" />
 
                 <CheckBox
                     android:id="@+id/ckPilihHuruf_Tsa"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
-                    android:text="Tsa'" />
+                    android:text="ثَلَّاجٌ" />
 
                 <CheckBox
                     android:id="@+id/ckPilihHuruf_Jim"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
-                    android:text="Jim" />
+                    android:text="جَوْرَبٌ" />
             </TableRow>
 
             <TableRow
                 android:id="@+id/tableRow2"
                 android:layout_width="fill_parent"
-                android:layout_height="wrap_content" >
+                android:layout_height="wrap_content">
 
                 <CheckBox
                     android:id="@+id/ckPilihHuruf_Cha"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
-                    android:text="Cha'" />
+                    android:text="حَقِيْبَ" />
 
                 <CheckBox
                     android:id="@+id/ckPilihHuruf_Kho"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
-                    android:text="Kho'" />
+                    android:text="خِزَانَة" />
 
                 <CheckBox
                     android:id="@+id/ckPilihHuruf_Dal"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
-                    android:text="Dal" />
+                    android:text="دَفْتَرٌ" />
 
                 <CheckBox
                     android:id="@+id/ckPilihHuruf_Dzal"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
-                    android:text="Dzal" />
+                    android:text="ذَقْنٌ" />
 
                 <CheckBox
                     android:id="@+id/ckPilihHuruf_Ro"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
-                    android:text="Ro'" />
+                    android:text="رَفٌّ" />
             </TableRow>
 
             <TableRow
                 android:id="@+id/tableRow3"
                 android:layout_width="fill_parent"
-                android:layout_height="wrap_content" >
+                android:layout_height="wrap_content">
 
                 <CheckBox
                     android:id="@+id/ckPilihHuruf_Zai"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
-                    android:text="Zai" />
+                    android:text="سَجَّادٌَ" />
 
                 <CheckBox
                     android:id="@+id/ckPilihHuruf_Sin"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
-                    android:text="Sin" />
+                    android:text="سَجَّادَةٌ" />
 
                 <CheckBox
                     android:id="@+id/ckPilihHuruf_Syin"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
-                    android:text="Syin" />
+                    android:text="شَوْكَةٌ" />
 
                 <CheckBox
                     android:id="@+id/ckPilihHuruf_Shod"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
-                    android:text="Shod" />
+                    android:text="صَحْنٌ" />
 
                 <CheckBox
                     android:id="@+id/ckPilihHuruf_Dlod"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
-                    android:text="Dlod" />
+                    android:text="ضَبَابٌ" />
             </TableRow>
 
             <TableRow
                 android:id="@+id/tableRow4"
                 android:layout_width="fill_parent"
-                android:layout_height="wrap_content" >
+                android:layout_height="wrap_content">
 
                 <CheckBox
                     android:id="@+id/ckPilihHuruf_Tho"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
-                    android:text="Tho'" />
+                    android:text="طَاوِلَةٌ" />
 
                 <CheckBox
                     android:id="@+id/ckPilihHuruf_Dho"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
-                    android:text="Dho'" />
+                    android:text="ظَهْرٌ" />
 
                 <CheckBox
                     android:id="@+id/ckPilihHuruf_Ain"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
-                    android:text="'Ain" />
+                    android:text="عَسَلٌ" />
 
                 <CheckBox
                     android:id="@+id/ckPilihHuruf_Ghoin"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
-                    android:text="Ghoin" />
+                    android:text="غَسَّالَةٌ" />
 
                 <CheckBox
                     android:id="@+id/ckPilihHuruf_Fa"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
-                    android:text="Fa'" />
+                    android:text="فُرْنٌ" />
             </TableRow>
 
             <TableRow
                 android:id="@+id/tableRow5"
                 android:layout_width="fill_parent"
-                android:layout_height="wrap_content" >
+                android:layout_height="wrap_content">
 
                 <CheckBox
                     android:id="@+id/ckPilihHuruf_Qof"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
-                    android:text="Qof" />
+                    android:text="قَلَمُ حِبْرٍ" />
 
                 <CheckBox
                     android:id="@+id/ckPilihHuruf_Kaf"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
-                    android:text="Kaf" />
+                    android:text="كُرْسِيٌّ" />
 
                 <CheckBox
                     android:id="@+id/ckPilihHuruf_Lam"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
-                    android:text="Lam" />
+                    android:text="لِحَافٌ" />
 
                 <CheckBox
                     android:id="@+id/ckPilihHuruf_Mim"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
-                    android:text="Mim" />
+                    android:text="مِرْآةٌ" />
 
                 <CheckBox
                     android:id="@+id/ckPilihHuruf_Nun"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
-                    android:text="Nun" />
+                    android:text="نَعْلٌ" />
             </TableRow>
 
             <TableRow
                 android:id="@+id/tableRow6"
                 android:layout_width="fill_parent"
-                android:layout_height="wrap_content" >
+                android:layout_height="wrap_content">
 
                 <CheckBox
                     android:id="@+id/ckPilihHuruf_Wawu"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
-                    android:text="Wawu" />
+                    android:text="وِسَادَةٌ" />
 
                 <CheckBox
                     android:id="@+id/ckPilihHuruf_Ha"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
-                    android:text="Ha'" />
+                    android:text="هَاتِفٌ" />
 
                 <CheckBox
                     android:id="@+id/ckPilihHuruf_LamAlif"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
-                    android:text="Lam Alif" />
+                    android:text="لَعِبٌ" />
 
                 <CheckBox
                     android:id="@+id/ckPilihHuruf_Hamzah"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
-                    android:text="Hamzah" />
+                    android:text="أَصَابِعُ" />
 
                 <CheckBox
                     android:id="@+id/ckPilihHuruf_Ya"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
-                    android:text="Ya'" />
+                    android:text="يَدٌ" />
             </TableRow>
         </TableLayout>
     </ScrollView>

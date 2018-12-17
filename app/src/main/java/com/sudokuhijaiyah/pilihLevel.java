@@ -104,7 +104,7 @@ public class pilihLevel extends Activity implements OnCheckedChangeListener {
 	}
 
 	private void langsungMain() {
-		puzzle.progres = ProgressDialog.show(this, "Backtrack Generating Puzzle", "Tunggu Sebentar...",true,false);
+		puzzle.progres = ProgressDialog.show(this, "Generating Puzzle", "Tunggu Sebentar...",true,false);
 		Intent i = new Intent(this, puzzle.class);
 		i.putExtra(puzzle.HURUF_LEVEL, huruflevel);
 		i.putExtra(puzzle.AUDIO_SERVICE, audio);

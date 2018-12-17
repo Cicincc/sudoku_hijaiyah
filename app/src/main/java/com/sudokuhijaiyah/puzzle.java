@@ -109,8 +109,8 @@ public class puzzle extends Activity {
 		nilaiGambar[1] = R.drawable.ba;
 		nilaiGambar[2] = R.drawable.ta;
 		nilaiGambar[3] = R.drawable.tsa;
-		nilaiGambar[4] = R.drawable.jim;
-		nilaiGambar[5] = R.drawable.ha;
+		nilaiGambar[4] = R.drawable.ha;
+		nilaiGambar[5] = R.drawable.jim;
 		nilaiGambar[6] = R.drawable.kha;
 		nilaiGambar[7] = R.drawable.dal;
 		nilaiGambar[8] = R.drawable.dzal;
